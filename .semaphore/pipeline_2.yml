@@ -15,4 +15,4 @@ promotions:
   - name: Promotion 1
     pipeline_file: pipeline_3.yml
     auto_promote:
-      when: branch = 'master' AND result = 'passed'
+      when: branch = 'fork-and-run'
